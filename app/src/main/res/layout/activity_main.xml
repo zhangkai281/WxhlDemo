@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main" android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:id="@+id/but_id_1" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="同步get" />
+    <Button android:id="@+id/but_id_2" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="异步get" />
+    <Button android:id="@+id/but_id_3" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="同步post" />
+    <Button android:id="@+id/but_id_4" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="同步post" />
+    <Button android:id="@+id/but_id_5" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="同步post，提交json数据" />
+</LinearLayout>
